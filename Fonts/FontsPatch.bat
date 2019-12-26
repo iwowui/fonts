@@ -1,5 +1,4 @@
 @echo off
-@echo 客户端字体补丁
 cd /d "%~dp0"
 
 copy /y ARKai_T.ttf FRIZQT__.ttf
@@ -19,7 +18,6 @@ copy /y ARKai_T.ttf bKAI00M.ttf
 copy /y ARKai_T.ttf ZYHei.ttf
 copy /y ARKai_T.ttf ZYKai_C.ttf
 copy /y ARKai_T.ttf ZYKai_T.ttf
-copy /y ARKai_T.ttf bHEI01B.ttf 
+copy /y ARKai_T.ttf bHEI01B.ttf
 
-@echo 处理完成！
 ping -n 2 127.1 >nul
